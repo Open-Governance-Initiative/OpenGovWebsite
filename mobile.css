@@ -1,0 +1,123 @@
+/* body {
+    background:purple;
+} */
+
+.herobar {
+    background-position-x: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-color: #000000c9;
+    color: white;
+}
+
+
+/*hide nav list*/
+.nav_links {
+    display: none;
+}
+
+.main_text {
+    font-size: 40px;
+    text-align: center;
+}
+
+.herobar {
+    padding: 20px 10px;
+}
+
+.sub_text {
+    font-size: 20px;
+    width: unset;
+    text-align: center;
+}
+
+/*center button*/
+.cta {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.wi_sub {
+    padding: 10px 5%;
+}
+
+.side_cta_cover {
+    flex-direction: column;
+    padding: 15px;
+}
+
+.side_cta {
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+/*side grids*/
+.grid_box_left {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 5vw;
+}
+
+.grid_box_left .side_img {
+    order: 2;
+    margin-top: 30px;
+}
+
+/*4 box philosophy*/
+.box_cover {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+}
+
+/*for right*/
+.grid_box_right {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 5vw;
+}
+
+.grid_box_right .side_img {
+    margin-top: 30px;
+}
+
+/*contact form*/
+.contact_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px 5vw;
+}
+
+.contact_none {
+    display: none;
+}
+.input_cover { 
+    padding: unset;
+}
+
+/*footer*/
+.footer_logo img {
+    width: auto;
+    height: 30px;
+}
+
+.footer_icons img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+/*Tablet*/
+@media (max-width: 770px) and (min-width: 500px) {
+    /* body {
+        background: red;
+    } */
+
+    .sub_text {
+        width: 80%;
+        margin: 0px auto;
+    }
+}

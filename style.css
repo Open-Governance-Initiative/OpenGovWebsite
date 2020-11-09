@@ -1,0 +1,279 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.logo_cover {
+    width: 100px;
+    height: auto;
+    /* background: blue; */
+}
+
+.logo_cover img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background: #008435;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 10px 5%;
+}
+
+.nav_links {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.herobar {
+    background: url('./images/float-img.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 400px auto;
+    min-height: 250px;
+    /* background-color: red; */
+    padding: 30px 50px;
+}
+
+.main_text {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.sub_text {
+    font-size: 24px;
+    width: 50%;
+}
+
+.cta {
+    background: #008435;
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.what_is {
+    display: flex;
+    justify-content: center;
+}
+
+.what_is span {
+    padding: 0px 30px;
+    border-bottom: 3px solid #008435;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 25px;
+}
+
+.wi_sub {
+    text-align: center;
+    padding: 10px 20%;
+    margin-top: 10px;
+}
+
+.subdetails_cover {
+    margin: 50px 0px;
+}
+
+.grid_box_left {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 0px 10vw;
+    column-gap: 50px;
+    margin-top: 30px;
+}
+
+.grid_box_right {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 0px 10vw;
+    column-gap: 50px;
+    margin-top: 30px;
+}
+
+.side_img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/***/
+.box_img {
+    width: 50px;
+    height: auto;
+}
+
+.boxes {
+    background-color: #C4E2D0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5%;
+}
+
+.box_cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin: 30px 10vw;
+}
+
+.box-text {
+    font-weight: bold;
+}
+
+.side_cta_cover{
+    background: #008435;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.side_cta {
+    color: #008435;
+    border: none;
+    outline: none;
+    min-width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.side_text {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+/*FAQ*/
+.faq_box {
+    background: #C4E2D0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 5%;
+}
+
+.faq_que {
+    font-weight: bold;
+    color: #008435;
+}
+
+/* .faq_ans {
+
+} */
+
+/*contact us*/
+.bg_coo {
+    background: #008435;
+    height: 200px;
+}
+
+.contact_grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 30px 10vw;
+    column-gap: 30px;
+}
+
+.input_cover {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20%;
+}
+
+.input_cover input, .input_cover textarea {
+    background: lightgray;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-indent: 10px;
+}
+
+.input_cover textarea {
+    height: 150px;
+}
+
+.submit_btn {
+    background: #008435;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+/*****************************/
+.footer_cover {
+    background: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5vw;
+}
+
+.footer_icons {
+    display: flex;
+}
+
+.footer_icons img {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.footer_logo img {
+    width: auto;
+    height: 50px;
+}
+/* 
+.footer_logo img {
+    width: 100%;
+    height: 100%;
+} */
+
+
+/*width for tell us btn*/
+.tell_us_width {
+    min-width: 200px;
+}
+
+/*Facebook footer icon*/
+.fb_icon {
+    height: 40px;
+    width: auto;
+}
+
+.footer_icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
