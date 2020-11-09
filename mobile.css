@@ -110,6 +110,12 @@
     margin-left: 10px;
 }
 
+/*Facebook footer icon*/
+.fb_icon {
+    height: 30px;
+    width: auto;
+}
+
 /*Tablet*/
 @media (max-width: 770px) and (min-width: 500px) {
     /* body {
