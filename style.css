@@ -37,7 +37,8 @@ nav {
     background: url('./images/float-img.png');
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size: 400px auto;
+    background-position-y: 20px;
+    background-size: 450px auto;
     min-height: 250px;
     /* background-color: red; */
     padding: 30px 50px;
