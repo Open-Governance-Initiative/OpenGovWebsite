@@ -1,0 +1,38 @@
+    <!--Frequently Asked Questions-->
+    <div class="subdetails_cover">
+        <div class="what_is"><span>Frequently Asked Questions</span></div>
+    <!--1st row-->
+    <div class="box_cover">
+    <!--Question and Answer-->
+    <div class="faq_box">
+        <div class="faq_que">Is Open-Gov a form of government like democracy?</div>
+        <div class="faq_ans">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos labore quam alias provident ex voluptas molestias commodi debitis ea cum!
+        </div> 
+    </div>
+    <!--Question and Answer-->
+    <div class="faq_box">
+        <div class="faq_que">Is Open-Gov affliated to any political party?</div>
+        <div class="faq_ans">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos labore quam alias provident ex voluptas molestias commodi debitis ea cum!
+        </div> 
+    </div>
+    </div>
+    <!--2nd row-->
+    <div class="box_cover">
+    <!--Question and Answer-->
+    <div class="faq_box">
+        <div class="faq_que">Is Open Governance Inititative the same with Open Government Partnership?</div>
+        <div class="faq_ans">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos labore quam alias provident ex voluptas molestias commodi debitis ea cum!
+        </div> 
+    </div>
+    <!--Question and Answer-->
+    <div class="faq_box">
+        <div class="faq_que">How can I become a volunteer?</div>
+        <div class="faq_ans">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos labore quam alias provident ex voluptas molestias commodi debitis ea cum!
+        </div> 
+    </div>
+    </div>
+    </div>
